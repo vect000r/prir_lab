@@ -1,0 +1,31 @@
+semafor
+
+|
+v
+
+if (l==0)
+    proces -> kolejka
+    uspij proces
+else
+    l--
+
+
+^
+|
+
+
+if (kolejka.size() > 0)
+    kolejka -> proces
+    obudz proces
+else
+    l++
+
+sekcja krytyczna: przed wejsciem obnizam semafor, po wyjsciu podnosze, (1,0)
+
+przyklady:
+
+ucztujacy filozofi
+
+producent - konsument
+
+czytelnicy - pisarze
