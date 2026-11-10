@@ -1,0 +1,10 @@
+1. rozeslanie danych (jeden proces rozsyla dane do wszystkich innych procesów)
+    broadcast, potem moze optymalizacja
+    potem moze scatterv gatherv
+
+2. obsluga marginesow steps razy
+    uzgodnienie informacji miedzy procesami.
+    np. umawiamy sie ze parzysci zaczynaja jako rozsylajacy na prawo, nieparzysci na lewo itd.
+    MPI_Sendrecv, MPI_Send, MPI_Recv, MPI_Isend, MPI_Irecv, MPI_Wait, MPI_Waitall
+
+3. zbieranie danych (jeden proces zbiera dane od wszystkich innych procesów)
