@@ -8,3 +8,10 @@
     MPI_Sendrecv, MPI_Send, MPI_Recv, MPI_Isend, MPI_Irecv, MPI_Wait, MPI_Waitall
 
 3. zbieranie danych (jeden proces zbiera dane od wszystkich innych procesów)
+
+
+
+najwieksze problemy:
+wskazniki
+przyzwyczajenie sie do kolejnosci 
+lokalnosc pamieci
